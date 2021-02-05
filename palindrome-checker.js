@@ -4,8 +4,10 @@ function palindrome(str) {
   str = [...str.toLowerCase()]
     .filter((value) => value.match(/^[a-z0-9]$/))
     .join('');
+
   // Reverse the string
   let reversedStr = [...str].reverse().join('');
+
   // Check whether they are equal
   return reversedStr === str;
 }
