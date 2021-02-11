@@ -18,5 +18,6 @@ function rot13(str) {
     }
   });
 
+  // Converts array to string and returns it
   return decodedStringArray.join('');
 }
